@@ -111,12 +111,16 @@ footer {
   margin-top: 50px;
   display: flex;
   background: darkslategrey ;
+  text-align: center;
 }
 
 .columna {
   flex: 1;
-  margin-right: 20px; /* Ajusta el margen según tus preferencias */
+  margin-right: 20px; 
+  align-items: center;/* Ajusta el margen según tus preferencias */
 }
+.columna ul {
+  list-style-type: none;}
 .f-title{
   color:rgb(190, 216, 216)
 }
